@@ -69,9 +69,9 @@ class Protocol:
     # Receive output
     def receive(self, stdout=True, stderr=False):
         if stdout:
-            return self.engine.stdout.readline()
+            return self.engine.stdout.readline().strip()
         elif stderr:
-            return self.engine.stderr.readline()
+            return self.engine.stderr.readline().strip()
 
     def about(self):
         # Get info about engine
@@ -86,10 +86,10 @@ class Protocol:
             self.send('INFO', i, info[i])
         pass
 
-    def start_game(self):
-        self.send('start')
-        valid = self.receive().upper() == 'OK'
-        return valid
+    def is_ready(self, board_size=15):
+        self.send('start', board_size)
+        valid = self.receive()
+        return valid.upper() == 'OK'
 
     def put_move(self, move):
         self.send('turn', move)
@@ -109,9 +109,20 @@ class Protocol:
 def main():
     engine = Engine('embryo.exe')
     about = engine.protocol.about()
+    engine.protocol.info_dict['timeout_turn'] = 0
+    engine.protocol.info_dict['timeout_match'] = 10000
+    engine.protocol.info_dict['time_left'] = 10000
     engine.protocol.set_info()
+    if not engine.protocol.is_ready():
+        engine.protocol.exit()
+        engine.kill_engine()
+        return
+    engine.protocol.put_move('7,7')
+    move = engine.protocol.get_move()
+    print(move)
     engine.protocol.exit()
     engine.kill_engine()
+
     print(engine)
     print(about)
     return
