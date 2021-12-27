@@ -63,7 +63,6 @@ class Protocol:
     # Send input to engine
     def send(self, *command):
         command = ' '.join([str(i) for i in command]).upper()
-        print(command)
         self.engine.stdin.write(command + '\n')
 
     # Receive output
@@ -91,7 +90,7 @@ class Protocol:
         valid = self.receive()
         return valid.upper() == 'OK'
 
-    def accept_restart(self, board_size=15):
+    def accept_restart(self):
         self.send('restart')
         valid = self.receive()
         return valid.upper() == 'OK'
