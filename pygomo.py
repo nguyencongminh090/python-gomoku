@@ -94,6 +94,12 @@ class Protocol:
     def put_move(self, move):
         self.send('turn', move)
 
+    def get_move(self):
+        while True:
+            text = self.receive()
+            if 'MESSAGE' not in text and 'DEBUG' not in text and ',' in text:
+                return text
+
     def exit(self):
         # Exit engine
         self.send('END')
