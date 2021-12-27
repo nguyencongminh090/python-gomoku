@@ -8,6 +8,7 @@ class Engine:
                                        stdout=subprocess.PIPE,
                                        stderr=subprocess.PIPE,
                                        bufsize=1, universal_newlines=True)
+        self.is_running = True
         self.protocol = Protocol(self.engine)
 
     # Kill process of engine
@@ -35,8 +36,12 @@ class Engine:
             for i in findProcessIdByName(self.engine_name):
                 _proc = psutil.Process(i)
                 _proc.terminate()
+            self.is_running = False
         except:
             pass
+
+    def __str__(self):
+        return f'<Engine {self.engine_name}>'
 
 
 class Protocol:
@@ -51,6 +56,9 @@ class Protocol:
             'time_left': 0,
             'max_memory': 0,
         }
+
+    def __str__(self):
+        return '<class Protocol'
 
     # Send input to engine
     def send(self, *command):
@@ -98,6 +106,7 @@ def main():
     engine.protocol.set_info()
     engine.protocol.exit()
     engine.kill_engine()
+    print(engine)
     print(about)
     return
 
