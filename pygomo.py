@@ -91,6 +91,11 @@ class Protocol:
         valid = self.receive()
         return valid.upper() == 'OK'
 
+    def accept_restart(self, board_size=15):
+        self.send('restart')
+        valid = self.receive()
+        return valid.upper() == 'OK'
+
     def put_move(self, move):
         self.send('turn', move)
         return self.get_move()
