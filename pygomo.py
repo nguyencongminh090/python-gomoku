@@ -93,6 +93,19 @@ class Protocol:
 
     def put_move(self, move):
         self.send('turn', move)
+        return self.get_move()
+
+    def play_first_move(self):
+        self.send('begin')
+        return self.get_move()
+
+    def board(self, lst):
+        self.send('board')
+        for i in range(len(lst)):
+            k = '1' if len(lst) % 2 == i % 2 else '2'
+            self.send(lst[i] + ',' + k)
+        self.send('done')
+        return self.get_move()
 
     def get_move(self):
         while True:
@@ -117,8 +130,12 @@ def main():
         engine.protocol.exit()
         engine.kill_engine()
         return
-    engine.protocol.put_move('7,7')
-    move = engine.protocol.get_move()
+    # Case 1
+    # move = engine.protocol.put_move('7,7')
+    # Case 2
+    # move = engine.protocol.play_first_move()
+    # Case 3
+    move = engine.protocol.board(['7,7', '9,4', '5,2', '6,0'])
     print(move)
     engine.protocol.exit()
     engine.kill_engine()
