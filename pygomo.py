@@ -1,4 +1,5 @@
 import subprocess
+from Game import *
 
 
 class Engine:
@@ -144,6 +145,8 @@ def main():
     engine.protocol.exit()
     engine.kill_engine()
 
+    game = Game(['7, 7'])
+    print(game.is_win())
     print(engine)
     print(about)
     return
