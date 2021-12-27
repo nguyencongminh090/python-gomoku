@@ -104,7 +104,7 @@ class Protocol:
         self.send('begin')
         return self.get_move()
 
-    def board(self, lst):
+    def board(self, lst: list):
         self.send('board')
         for i in range(len(lst)):
             k = '1' if len(lst) % 2 == i % 2 else '2'
