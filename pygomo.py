@@ -42,17 +42,20 @@ class Engine:
 class Protocol:
     def __init__(self, engine):
         self.engine = engine
+        # You can add more option
         self.info_dict = {
             'timeout_match': 0,
             'timeout_turn': 0,
             'game_type': 0,
-            'rule 1': 0,
+            'rule': 1,
             'time_left': 0,
             'max_memory': 0,
         }
 
     # Send input to engine
-    def send(self, command: str):
+    def send(self, *command):
+        command = ' '.join([str(i) for i in command]).upper()
+        print(command)
         self.engine.stdin.write(command + '\n')
 
     # Receive output
@@ -68,9 +71,20 @@ class Protocol:
         info = self.receive()
         return info
 
-    def set_info(self):
-
+    def set_info(self, info=''):
+        if not info:
+            info = self.info_dict
+        for i in info:
+            self.send('INFO', i, info[i])
         pass
+
+    def start_game(self):
+        self.send('start')
+        valid = self.receive().upper() == 'OK'
+        return valid
+
+    def put_move(self, move):
+        self.send('turn', move)
 
     def exit(self):
         # Exit engine
@@ -81,7 +95,9 @@ class Protocol:
 def main():
     engine = Engine('embryo.exe')
     about = engine.protocol.about()
+    engine.protocol.set_info()
     engine.protocol.exit()
+    engine.kill_engine()
     print(about)
     return
 
