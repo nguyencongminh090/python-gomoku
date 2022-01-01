@@ -45,6 +45,38 @@ class Engine:
         return f'<Engine {self.engine_name}>'
 
 
+class ReadOutput:
+    def __init__(self, message):
+        self.message = message.lower()
+
+    def depth(self):
+        try:
+            output = self.message.split()[self.message.split().index('depth') + 1]
+            return output
+        except:
+            return None
+        
+    def ev(self):
+        try:
+            output = self.message.split()[self.message.split().index('ev') + 1]
+            return output
+        except:
+            return None
+
+    def pv(self, is_Kata=False):
+        try:
+            output = self.message.split('pv')[1]
+            return output.strip()
+        except:
+            return None
+
+    def __str__(self):
+        return f'ReadOutput(depth={self.depth()}, ev={self.ev()}, pv={self.pv()})'
+
+    def __repr__(self):
+        return f'ReadOutput(depth={self.depth()}, ev={self.ev()}, pv={self.pv()})'
+
+
 class Protocol:
     def __init__(self, engine):
         self.engine = engine
@@ -80,10 +112,11 @@ class Protocol:
         return info
 
     def set_info(self, info=''):
-        if not info:
-            info = self.info_dict
-        for i in info:
-            self.send('INFO', i, info[i])
+        for i in self.info_dict:
+            if i in info:
+                self.send('INFO', i, info[i])
+            else:
+                self.send('INFO', i, self.info_dict[i])
         pass
 
     def is_ready(self, board_size=15):
@@ -96,27 +129,33 @@ class Protocol:
         valid = self.receive()
         return valid.upper() == 'OK'
 
-    def put_move(self, move):
+    def put_move(self, move, info=False):
         self.send('turn', move)
-        return self.get_move()
+        return self.get_move(info)
 
-    def play_first_move(self):
+    def play_first_move(self, info=False):
         self.send('begin')
-        return self.get_move()
+        return self.get_move(info)
 
-    def board(self, lst: list):
+    def set_board(self, lst: list, info=False):
         self.send('board')
         for i in range(len(lst)):
             k = '1' if len(lst) % 2 == i % 2 else '2'
             self.send(lst[i] + ',' + k)
         self.send('done')
-        return self.get_move()
+        return self.get_move(info)
 
-    def get_move(self):
+    def get_move(self, info=False):
+        if info:
+            lst = []
         while True:
-            text = self.receive()
+            text = self.receive().upper()
             if 'MESSAGE' not in text and 'DEBUG' not in text and ',' in text:
-                return text
+                return (text) if not info else (text, lst)
+            if info:
+                txt = text.lower()
+                if 'message' in txt:
+                    lst.append(ReadOutput(txt))
 
     def exit(self):
         # Exit engine
@@ -127,10 +166,11 @@ class Protocol:
 def main():
     engine = Engine('embryo.exe')
     about = engine.protocol.about()
-    engine.protocol.info_dict['timeout_turn'] = 0
-    engine.protocol.info_dict['timeout_match'] = 10000
-    engine.protocol.info_dict['time_left'] = 10000
-    engine.protocol.set_info()
+    engine.protocol.set_info({
+        'timeout_turn': 0,
+        'timeout_match': 10000,
+        'time_left': 10000
+        })
     if not engine.protocol.is_ready():
         engine.protocol.exit()
         engine.kill_engine()
@@ -140,7 +180,7 @@ def main():
     # Case 2
     # move = engine.protocol.play_first_move()
     # Case 3
-    move = engine.protocol.board(['7,7', '9,4', '5,2', '6,0'])
+    move = engine.protocol.set_board(['7,7', '9,4', '5,2', '6,0'], info=True)
     print(move)
     engine.protocol.exit()
     engine.kill_engine()
