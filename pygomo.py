@@ -168,7 +168,7 @@ def main():
     about = engine.protocol.about()
     engine.protocol.set_info({
         'timeout_turn': 0,
-        'timeout_match': 10000,
+        'timeout_match': 0,
         'time_left': 10000
         })
     if not engine.protocol.is_ready():
@@ -180,7 +180,14 @@ def main():
     # Case 2
     # move = engine.protocol.play_first_move()
     # Case 3
-    move = engine.protocol.set_board(['7,7', '9,4', '5,2', '6,0'], info=True)
+    # output = engine.protocol.set_board(['7,7', '9,4', '5,2', '6,0'], info=True)
+    # move = output[0]
+    # info = output[1]
+    # print(move)
+    # print(info)
+    # print(info[0].ev())
+    # Case 4
+    move = engine.protocol.set_board(['7,7', '9,4', '5,2', '6,0'])
     print(move)
     engine.protocol.exit()
     engine.kill_engine()
