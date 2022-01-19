@@ -7,7 +7,7 @@ class Engine:
                                        stderr=subprocess.PIPE,
                                        bufsize=1, universal_newlines=True)
         self.__is_running = True
-        self.protocol = __Protocol(self.__engine)
+        self.protocol = Protocol(self.__engine)
 
     # Kill process of engine
     def kill_engine(self):
@@ -77,16 +77,17 @@ class ReadOutput:
         return f'ReadOutput(depth={self.depth()}, ev={self.ev()}, pv={self.pv()})'
 
 
-class __Protocol:
+class Protocol:
     def __init__(self, engine):
         self.__engine = engine
         # You can add more option
+        # Default 60 seconds
         self.info_dict = {
-            'timeout_match': 0,
-            'timeout_turn': 0,
+            'timeout_match': 60000,
+            'timeout_turn': 60000,
             'game_type': 0,
             'rule': 1,
-            'time_left': 0,
+            'time_left': 60000,
             'max_memory': 0,
         }
 
