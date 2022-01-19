@@ -1,5 +1,3 @@
-##from engine import Engine
-##from game import Game
 from pygomo import *
 
 # Example

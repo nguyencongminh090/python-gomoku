@@ -1,15 +1,13 @@
-import subprocess
-
-
 class Engine:
     def __init__(self, engine_name):
+        import subprocess
         self.__engine_name = engine_name
         self.__engine = subprocess.Popen(engine_name, stdin=subprocess.PIPE,
                                        stdout=subprocess.PIPE,
                                        stderr=subprocess.PIPE,
                                        bufsize=1, universal_newlines=True)
         self.__is_running = True
-        self.protocol = Protocol(self.__engine)
+        self.protocol = __Protocol(self.__engine)
 
     # Kill process of engine
     def kill_engine(self):
@@ -79,7 +77,7 @@ class ReadOutput:
         return f'ReadOutput(depth={self.depth()}, ev={self.ev()}, pv={self.pv()})'
 
 
-class Protocol:
+class __Protocol:
     def __init__(self, engine):
         self.__engine = engine
         # You can add more option
