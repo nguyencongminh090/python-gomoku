@@ -1,0 +1,261 @@
+h13 i13 j13 h12 g10 i12 i11 g11 f10 h10 i9 f12 g12 e13 d14 e10 h9 e11 e12 f11 d11 j9 g7 h8 f7 g8 d7 e7 f9 e8 e9 g9 f8 f6 d10 o9 c11
+h8 i9 j8 i7 i8 g8 j9 j7 k10 l11 i10 h11 j10 l10 h7 g6 i11 l8 h10 g10 j12 j11 k13 g9 l14
+h8 i9 l9 g9 g10 h10 i11 j8 k7 e9 h9 f11 e10 d8 f10 d10 d9 c9 c11 f12 g11 e11 g13 b8
+i8 j9 j10 i9 h10 i10 k9 l8 h11 h12 g9 f8 g10 g11 h9 j7 h8 h7 f10 e11 f11 e12 e10 d10 f9 e8 d9 e9 g12 h13 c8
+h8 h9 l10 i8 j7 i10 i7 j6 k7 l7 j8 k9 i9 h10 g7 h7 j10 j9 k11
+o3 i6 i7 h7 g8 j6 k6 h5 h6 g5 g4 i5 j5 g6 f5 i4 j3 h4 g3 i3 i2 f6 j2 e7
+h8 i9 l7 g8 g9 i7 i8 h7 j7 k6 i6 k8 k7 f7 e7 e10 f9 f11 d9 e9 e11 f10 h10 i11 h12 h11 j11 e6 h9 d10 c10 f6 d7 f4 f8 d6 g6 b6 c6 c7 d8 e5 g3 b8
+h8 h9 i8 i9 g8 f8 h7 j9 g9 i7 i6 j5 g6 g5 h6 j6 h5 h4 k8 j8 j7 l9 g4
+h8 i9 k5 g9 h9 h10 j8 g10 f8 i10 j10 g8 g11 f9 h7 i12 i8 h11 j13 e8
+h8 h9 i9 g7 i10 i11 j8 h10 k8 i8 j9 l7 j7 j6 k11 j10 l9 m10 k9 m9 k10 k7 k12
+b13 c12 d11 e9 c13 e11 e10 f8 d10 d9 d13 e13 c10 f10 b9 e12 b10 a10 b12 b11 f9 g11 d8 f12 d14 d12 g12 g9 h8 h10 h9 i9
+i8 i9 j9 h7 k8 j8 l7 m6 k7 k9 l8 j7 l10 l9 n8 m9 k10 m10 k5 n9 o9 m8 m7 l6 h6 k4 f7 i6 j5 l5 n7 o7 j6 j3 i2 h4 g8 l4 i10 h11 h9 e6 j11
+h8 i10 f6 i9 i11 j9 h11 h9 k9 i8 j10 h12 l8 m7 j11 k11 j7 h7 g6 i6 i7 f9 g9 g8 j5 e10
+h8 i9 i10 h9 g9 g10 f10 e11 i8 j8 f8 h10 g11 e9 f7 f9 e8 g8 g6 d9 h7 f5 i7 j6 g7 j7 e7
+c14 c13 f14 f13 f10 g10 g11 h12 f9 f8 d11 f11 d14 e14 e13 f12 d12 c11 d13 d10 d15
+c4 d4 c5 d6 c6 c7 e5 d5 d7 f5 g9 g6 h7 f7 e8 d3 d2 f9 h8 g8 h6 h9 e6 f6 f8 e7 j6 i7 i5 g7 h4 g5 h5
+h8 g9 e11 j10 f8 e8 f9 f7 g6 i8 h6 h7 g7 i5 f6 e5 i6 e6 j6
+h8 i10 f6 i9 i8 j8 h10 j9 h9 h11 k8 i12 i6 h6 j7 h5 k6 g10 l5
+h8 j9 f6 i10 e7 i9 g5 h4 g8 h11 k8 k9 h9 i7 i11 j8 d8 c9 f8 e8 g9 h10 g6 g7 d6 c5 e6 h6 c6
+h8 i9 l9 g8 j9 i10 j11 k10 i11 h10 l10 j12 l11 g10 j10 f10 e10 l12 k11 m11 h11
+k3 j3 g3 i5 i6 j7 l5 g7 h6 h7 i7 g5 j6 g6 g8 h5 l6 k6 f7 f5 e5 j5
+h8 i9 l10 n12 h4 j6 h7 k7 h6 h5 f8 j8 h10 h9 g7 m5 l6 e9 g9 e7 g8 g6 e8 i8 d8
+h8 h9 i8 i7 g6 h7 g7 g8 f6 e5 f7 f9 i6 e10 d11 h6 h5 i4 g5 g4 d8 e7 d9 e8 d10 d12 d7
+h8 i9 l7 d9 l3 j5 k8 l8 j7 k7 m6 n5 h5 i6 h7 h6 j9 i10 i8 g6 j8 g8 j10 j11 j6
+l4 m5 m7 i5 j9 i7 k9 i9 k7 i3 i6 l7 k8 k6 j7 l9 j10 j8 l8 n6 i11
+c14 c13 f14 f11 j14 h10 h9 f10 f12 e11 d12 g11 d11 i11 h11 g10 i10 g9 g8 j12 k13 f8
+l7 m6 m3 k5 i7 l6 n6 k4 k6 l5 j3 m7 j4 m5 m8 j5 n5 i5
+a9 f15 a10 h8 d9 i9 d8 i8 a11 a8 d10 d11 e9 i7 c9 b9 g9 f9 d6 d7 e7 b10 f8 c5 h10
+k4 j4 i4 j7 h5 l5 g6 f7 h6 i6 h4 h3 g5 i8 k6 i7 h7 h8 i5 i9 i10 f5 k5 j5 k7 k3 k8
+h8 i9 k5 j6 m3 i8 j9 k7 l8 i6 i7 l6 h6 j8 h10 m5
+h8 i8 i12 g7 j10 g10 j9 h9 j7 j8 i10 g9 g11 f9 i9 h11 k11 l12 l10 g6 g8 e8 d7 d9 e9 f7 h5 c10
+h8 i10 f6 j9 e7 i9 g5 h4 g8 h11 k8 k9 h9 i7 i11 f8 h7 h6 g7 j8 l10 g6 f7 d7 e5 d4 e6 d5 e8 e9 e4
+h8 l12 g3 j12 i7 i11 g9 j6 h9 k5 i9 l4 j9 m3 k9
+h8 g10 j12 e10 i9 g7 h10 h9 g9 i11 j8 g11 i8 f10 k8 d10 l8
+h8 j9 e7 i9 e6 i10 e8 e9 f8 i8 i11 g9 e5 e4 f6 g8 g7 d4 f7 h9 k9 i6 i7 h7 f9 g6 f10
+h8 i9 k5 g9 j9 h10 j8 g10 j10 j7 i11 i8 h9 i7 i10 g8 g7 i6 i5 h5 k8 l7 j11 j12 h11 g12 g11 f10 k11
+h8 i9 k5 g9 j9 g10 j8 g8 g11 j7 i8 f9 k8 l8 h11 i10 h9 h10 f10 h7 i6 g7 g6 i7 k7 f7
+h8 i9 k5 g9 j9 h10 j8 g10 j10 j7 i11 i8 h9 i7 i10 g8 g7 f9 e10 h11 e8 i12 j13 i6 i5 h5 k8 l7 h7 f8 k7 e7 d6 k9 f6 e5 j6 h4 j4 h6 l6 m7 l4 k4 m5 n4 j5 l5 j2 j3 k3 m6 n6
+h8 i9 k5 g9 j9 g10 j8 g8 g7 f9 j7 j6 h7 h9 e9 f7 e6 j11 i10 h11 h6 i12 i7 j13
+f8 c9 j6 e7 c6 d9 d8 e9 f9 e8 e10 f7 c10 e6 e5 b9 a9 d7 a10 g7 n15 h7
+h11 i8 i7 g10 h9 h8 g8 i10 g7 h7 g6 g5 h10 f7 h12 h13 g11 i11 i9 j8 e9 i13 f9 g9 f10 d8 f12 e13 f11 f13 f8
+h8 i10 f6 i6 j7 g8 f7 g7 g6 f5 j5 h5 j6 j4 i7 k5 g9 f10 j9 j8 h9 f9 h7 h10 i8 j10 k10
+f6 h5 k6 i5 j5 i4 j3 i6 i7 g4 j7 j4 h4 g5 g7 i2 i3 f5 e5 h3 h8 j1
+c14 c13 f14 f11 g10 f9 g13 f10 f12 e11 g9 g11 d11 f8 f7 e9 h12 i11 h11 d8 c7 g7 d10 e8 e12 c8 d12 b8
+f7 h6 k5 j6 k6 k7 i5 j5 j7 i8 g6 h5 h8 j8 i9 g5 i7 h4 g7 h7 h3 f6 i3 i4 j4 h2 g9 g8 f10 e11 f9 k4 i6 h9 j10 k11 e7 f11 g10 h11 h10 i10 f8 i11 d6
+h8 i9 k5 g9 j8 g8 h9 g10 g11 h10 i11 e10 f10 g7 g6 h7 f9 e7 f7 f8 d6 e9 e11 d10 c11 h6
+h8 i5 l6 g7 j8
+h8 i9 l11 i8 i7 j6 h10 h7 g9 g6 j9 i6 h6 j5 k4 f5 e4 j7 j8 g5 h5 g4 g3 g8 f9 g7
+h8 i8 i5 g6 h6 g7 g5 h7 f5 h5 i7 j8 j6 k5 f4 e3 h4 k7 f2 g3 f3 e1 f6
+h8 i8 i5 h9 j6 g9 k7 l8 j7 i7 j8 j9 i9 l6 g7 f6 j4 j5 h6 f8 k3
+h8 i9 l7 g8 j9 g10 j7 g9 g11 i10 k7 i7 i8 g7 g6 h7 f7 h10 f10 f9 i6 i11 m7 n7 j6 j12 h6 k13
+o1 a1 h8 h9 g8 g7 i6 i8 j7 j6 l7 j5 k7 i7 k8 l9 j9 m6 j10 k9 h10 j11 i10 k10 h11
+h8 i9 k5 g9 i7 g10 j9 g11 g8 j8 h10 h11 h7 f11 e11 h9 i8 f9 c3 e9
+h8 j8 j10 i9 h10 h9 g9 i10 i11 j12 g11 g8 j11 f7 e6 h11 e9 e7 f10 i7 d8 h12 c7
+h8 i9 g12 h7 i7 g9 h9 g6 g10 i8 j9 h10 h11 i10 i12 j13 f12 h12 f11 f10 h13 e10 g11 i11 g14 k7 g13
+b13 c12 d11 g11 f10 f9 g9 h11 e11 d12 e8 f12 e12 h10 e10 e9 e13 e14 c10 i9 j8 h8 d10 h9 b10
+h8 j9 e10 j7 g8 h7 g7 i8 g6 g9 i9 j10 j8 h10 i10 h9 k6 f11 g10 i11 f8 j12 f6 k13
+a9 f15 a10 f11 e8 e11 a8 a7 e9 g11 d11 f12 e7 e10 e6 e5 c8 d10 d8 b8 b9 d7 c9 d9 a11 g12 b10
+h8 k9 d10 i9 f8 i7 h6 j8 i8 l10 m11 j9 h9 h10 g11 k7 l6 j7 g8 e8 g7 e9 g9 g10 i5 j4 h7 h5
+h8 i10 f6 i9 i8 j8 h10 j9 h9 h11 k8 i11 i6 j6 j7 i12 i13 g10 h5 f9 l9
+h8 h9 k5 g9 f9 g10 g8 i8 f11 j9 h7 i6 i7 j7 k6 k8 j6 l4 l9 i9 k9 i10 h11 i11 i12 h10 f8 j10 e10 k10
+b12 c11 d10 f10 e10 e9 g11 c9 c10 d8 b10 a10 d11 b9 d9 c12 f11 g12 b13 b11 d13 d12 e11 h11 e12 g10 e13 e14 c13 f13 a13
+h8 i9 k5 g9 j9 h10 j8 g10 j10 j7 g8 i8 h9 i11 j12 j11 i10 g11 h11 g12 g13 f10 e10 f12 e13 h12 e9 e12 e8 i12
+h8 h9 l10 g7 i10 g9 j10 h10 i9 g10 g8 i8 j7 i11 k11 l12 j12 m9 i13 h14 k13 k10 j13 j11 h13 g13 l13
+h8 i9 k5 g9 j9 h10 j8 g10 j10 j7 i11 i8 h9 i7 i10 g8 g7 f9 e10 h11 e8 i12 j13 l7 h7 e9 d9 f7 i5 h6 f6 f11 f10 k6 l6 j5 i4 i6 m7 j6 g6 j4 j3 l8 h5 k2 g5 e5 g3 g4 i3 l5 m4 k4 h3 l3 f3
+m6 j3 h6 h4 j5 g6 i4 h3 i5 i3 k3 j4 k5 l5 k4 k6 i7 i6 g5 n9 h5
+b13 c12 d11 e9 e11 f11 d13 e13 d10 d12 f12 c9 d9 c11 d2 f14 g3 g15
+h8 h9 g13 i7 i10 j10 j9 k9 h11 g12 i11 i12 f12 f11 e11 d10 h14 i15 h13 h12 e13 j12 k12 f13 k11 j11 j13 k13 k8 l7 l11 m10 i8 k10 j8 l10 l8
+h8 h9 l10 g7 j10 g9 i10 h10 i9 g10 g8 i8 j7 i11 k11 l12 j12 m9 i13 h14 k13 k10 j13 h13 j11 f11 j14
+i4 k5 m7 j7 j6 h5 i6 i5 j5 k6 h7 k4 k3 l5 m4 m6 n7 g8 i8 g6 f7 g7 g5 g9 g10 i9 h10 j9 h9 k8 h8 k7
+h8 h9 l10 k12 i13 j10 j11 i8 k11 j12 l11 i11 l12 l9 k13 l5 l13 n8 l14
+c2 h2 f2 f5 d4 e3 g4 h5 h4 f6 f7 g3 f4 e4 e5 j5 i3 i5 g5 j4 h6 j2 j3 k2 i2 k4 k5 h7 i6 g6 i8 d3
+a9 c13 c11 e10 f10 g9 d11 e9 d9 e11 e8 c10 i9 g7 g10 h11 i8 f8 d10 d12 h10 i10 j8 e12 e13 k7 d7 d8 k8 l8 h6 g12 h8 g8 h9 h7 j7 k6 f11
+c4 e5 c3 g6 d3 e3 d6 c6 c5 e7 d4 e4 e6 d5 f3 e2 e1 g5 f5 h4 f6 f4 h6 g4 i4 g7 g8 g3
+f3 i6 h4
+c2 h2 f2 f5 e6 h4 e4 h5 h3 i4 e5 e3 j4 i3 i2 g5 f6 i5 n15 j5
+h8 i10 f6 g7 j11 g10 g9 i7 i8 j8 f8 k9 l10 h10 j10 k7 i9 j7 h7 k8 k11 l12 k10 l7 j9 m7
+h8 g7 o1 f8 e7 e9 d10 g6 h6 g5 g4 f9 g9 f7 f10 i7 h7 h5 h10 h9 e10 g10 b10 c10 d8 i4 l7 e8
+h8 i9 e11 i7 j9 j8 k7 h6 g5 i10 i11 g8 i8 f7 h9 h7 g7 i6 f9 g6 j6 h5 i4 g4 j7 e6 k6 f6
+h8 g7 g9 i7 f9 f7 h7 h9 f10 g8 i10 g10 e11 d12 f11 f12 e9 h12 e10 d5 e6 e12 g12 d9 h11 c12 b12 d11 f13 d10 j9
+b13 c12 d11 f11 e9 d10 g10 g9 e8 e10 c8 f10 f8 d8 d7 f9 e6 b9 e7 e5 f7 c10 b10 g7 f6 m8 f5 m10 g4
+h8 g7 k9 f7 k10 g8 k8 k11 i7 g9 g10 e7 h7 h9 i10 f8 k7 o10 k6
+f3 i6 h4 i4 f5 f6 i5 g6 h6 h5 f7 g7 g3 f2 g8 j7 k8 h8 e5 j6 d5 j3 k2 j5 j4 k7 c5 i7 b5
+h8 g7 k9 f7 k10 g6 k8 k11 i7 e7 h7 h5 e8 g8 g9 j6 h9 h10 k7 k6 j9 i9 l7 i6 j7
+h8 g7 k10 g6 h6 h7 i7 g5 g8 i8 f5 e7 f7 f6 d8 e6 e8 f8 d6 j6 g3 l6 d7 d5 g10 f9 f10 d10 g9 e11 g11 e9 g12
+h8 h9 l10 i8 j7 i10 i7 j6 k7 l7 j8 k9 i9 j9 h10 k8 g11
+h8 g7 i7 g9 i6 g6 g5 i8 h6 f4 h7 h5 j8 k9 k7 l6 h10 h9 i9 g11 j7 g2 l7
+c8 h11 e3 h10 c5 h9 h8 f9 b6 d4 c6 c7 e6 d6 d7 f5 e5 e4 e8 c4 b5 a4 b4 b7 g9 f10 e9 e7 f11 e10 g10 h7 d3 g8 b3 d11
+h8 g7 h7 h9 h5 i6 j6 h4 g6 i8 j5 j7 k6 i9 i7 k5 i4 g10 f11 g9 f7 f9 e8
+b13 c12 d11 f10 e9 f8 f11 e11 g9 f9 f7 d10 g10 c9 b8 e12 f12 c10 c8 e10 b10 e14 e13 d13 b11 c13 c11 d12 b14 b12 a12 g11 e6 d7 g8 h9 g6 g7 e8 h5 e5 e7 d6 l7 f6 k9 h6
+h8 i9 k12 g8 j9 i10 j11 h10 j10 j8 g11 h11 i11 h12 j13 j12 h13 k10 i14 l11 g13 k9 i13 k7 k13
+h8 g7 k9 f7 h6 i7 h7 h9 g8 i6 i8 j8 k10 j9 j10 i10 i11 l8 k11 k8 h11 j11 h12 g13 k12 k13 j12 i12 h14 l7 m6 l9 i13 l10 g15
+h8 h9 h4 g8 f7 f9 h7 i9 g9 i7 f6 h6 f5 f4 g5 e7 h5 i5 g6 i8 i6 e8 e5 g7 d5
+h9 g8 i5 h8 i8 j7 g7 h6 h5 j5 j6 k7 i7 i6 h7 f5 i11 k10 i9 i10 g9 f9 h10 f8 f7 e7 g11 f12 k9 j9 h12 d8 e8 f11 f10 j10 i13 j14 e9
+g3 h3 i3 h7 h6 f5 i5 g6 e4 g4 i2 i4 h4 j6 g5 f6 f2 e1 j2 k1 h2 g2 l2 k2 j4 k5 k3
+h8 g7 f4 g6 g5 h6 i6 h5 f7 f8 i5 h4 h3 g9 i4 i3 j5 g8 g10 k6 f5 f3 e9 e6 h10 d6 f6 e7 c5 e4 g2 f2 f1
+a9 f15 a10 i12 d9 h12 d10 e9 d8 d11 a8 a11 e8 c10 d7 d6 c8 b8 f8 g8 f9 c6 f11
+g3 i3 k3 h6 g5 g6 i6 j5 h5 j7 j8 i8 k6 f8 f5 e5 j6 e9 i5 k7 g4 f2 f3 e2 g2 g1 e4 d5 e6 h3 d7 c8 g7 d8 e8 c7 b6 f10 g11 f9 f11 c9
+h8 i10 f6 i9 i8 h10 g11 g8 h9 g10 f10 e9 h7 h6 f7 f8 g7 i7 f5 j10 k10 e5 f4 f3 e4 g3 g6
+h8 j8 m8 i10 i7 k6 i5 j6 i6 i8 j7 h7 g6 h5 f6 g7 e6 h6 d6 c6 e7
+g13 h13 i13 g11 j11 i11 k11 j12 h10 f11 e11 h9 e10 e9 d10 f12 f9 f10 d8 g12 d11 h12 i12 d12 e12 f13 f14 c12 e8 c8 d7 c9 d9
+h8 i10 k12 j9 h11 k10 i9 k8 j10 k11 h10 h7 i8 k7 k9 j7 h12 m5 h9
+b14 b13 e14 d13 a13 f10 f11 e9 e10 g11 h12 d9 f9 g8 f8 d7 d8 f7 e6 g7 o3 e7 o4 c7
+h8 i9 g12 j7 h9 h7 i7 j6 g8 i10 f10 j9 j8 i8 g9 e11 g6 g7 h12 g10 h10 h11 j12 i12 i11 f9 k13
+h8 i10 f6 i9 j11 h10 j8 k10 j10 j9 o1 i8 o3 i11 o4 i12
+h8 i9 i7 h7 h6 g5 j6 k5 i5 i6 g8 f8 j8 k8 j4 k3 l8 k7 k9 l10 j7 n4 j5
+b13 c12 d11 d13 e14 e11 e12 f13 g13 i9 g9 i11 i10 j10 j9 k11 l12 k8 k7 l8 k9 m8 n8 l9 k10 i8 j8 j7 o1 m10 o2 n11
+h8 i9 k12 h9 j9 j8 i8 k7 l6 k10 k8 l7 m7 g9 h10 h6 g7 f6 g6 f9 e9 h7 g5 g8 i6 f7 l4 i10 o7 j11
+c8 h11 e3 e6 i12 g8 f7 h10 h9 i9 g11 i8 i10 g7 f6 g9 g6 f8 o5 h8 o6 j8
+h8 i10 k12 j9 h11 k10 i9 i8 h7 j10 h10 h9 j8 k7 g11 f12 f11 e11 g9 f8 i11 j11 i7 l10 m10 j6 g10 g8 f7 j7 g12 o4 g13
+b11 o15 o1 f11 d8 d9 e10 g10 b8 c9 e8 c8 e9 e7 c7 c6 b10 b9 h8 e12 f8 g8 f10 g11 d10 o6 c10
+h8 i9 k12 h9 j9 j8 h10 i7 i10 k9 l10 k7 j7 k8 k10 j10 l8 h6 g5 l6 m5 j4 k5 i5 g7 i6 i8 j6 o1 k6
+b13 c12 d11 f13 g14 g10 h11 f10 f11 g11 e10 h10 g12 h13 g13 i9 j8 i10 j10 i11 o1 i12 o2 i13
+a15 b15 l13 k11 l11 k12 k13 j13 k10 l10 m12 n13 m9 m8 k8 j9 m11 n11 l12 j14 n10 o9 k7 l8 j7 k6 i6 l9 j5 o15 i7 o14 h7 n15 g7
+a9 f15 a10 e9 d8 e8 e7 c9 f9 f7 g6 e11 a11 a8 d10 d11 e12 f11 a13 a12 g11 g12 d6 c8 c10 e5 g5
+a8 o8 a7 e7 d6 e6 e5 c7 e9 f9 f7 f5 a9 a10 g4 g6 h7 h4 d4 f6 g5 f4 i6 f3 f2 j7 g2 g3 d10 e11 j5 k4 c11 b12 h8 g7 c10 c9 d8 d7 e8 e10 h9 h6 h11 h10 d9 b11 d11 d12 i10 g8 e12 g9 b9
+f9 d12 j7 f11 g10 f14 f12 c11 e13 d11 e11 d10 d9 e9 f8 d14 d13 b12 a13 e14 c14 e12 c13 b13 f13 g13 e8 c12 a12 n14 h11 o15 i12
+e3 h6 g4 g7 e6 f8 i5 e7 f5 d7 f7 d6 g9 d8 d9 f6 g5 d4 d5 e5 g8 h8
+h8 h13 m6 h11 j6 h10 h9 g9 k6 i6 j7 i8 j5 j4 l7 i4 j9 i7 j8
+b14 b13 e14 o1 o15 e11 f11 g10 e10 g12 g9 f9 h11 j11 h10 h12 f12 g11 i13 j12 g13 k12 i12 j13 j10 l11 i14 i11 h14 n9 m10 j15 j14 k14 k10 l13 l10 n10 m12 m14 n14 n15
+d7 l8 i4 j8 g4 j6 h4 f4 h3 k8 i8 k7 f5 e6 i5 i6 h5 h6 g5 k6 e5
+b13 c12 d11 e9 f10 f11 d10 d9 e10 g10 c9 h9 e12 g9 f9 c10 e11 f12 e13 e14 d12 d13 b11 c11 i8 b14 c14 g8 g7 h11 i10 g11 g12 h10 h8 i11 j11 j12 f8 k13
+h3 e8 m5 f8 j3 g8 h8 g6 k3 i3 k5 f7 h5 f6 f5 g5 d5 h4 c5 e7
+h7 i8 j10 h8 g8 i6 g9 g10 h9 f7 j11 i10 i11 j9 h10 j12 h11 g11 h12 h13 g13 k9 f14
+h8 i9 l7 g8 h9 g10
+h8 i10 f6 i9 f8 j9 i8 j8 h9 h10 g11 j10 g10 j7 j6 j11
+i8 h9 g10 h10 g9 g11 h8 i7 g6 g8 f7 e8 f5 h7 f6 f4 e7 d8 f8 f9 d6 e6 c5
+c8 h11 e3 h10 c5 h9 h8 f9 c6 c7 b6 d4 e6 d6 d7 f5 b5 b7 e5 e4 e8 a4 c4 b3 f7 g8 d8 f8 d9 c10 d3 e2 e7 e9 g5 f6 g7 h7 g6 g3 h5
+h7 h6 i8 g6 j7 g7 h9 k6 g8 f8 i5 i6 j6 f7 f6 j8 k7 l8 h11 h8 i10 i9 l7 i7 g10 j9 f11
+h3 e8 m5 k5 i4 j5 h5 j3 i6 h6 g4 j7 f3 e2 j4 h4 g3 i3 f5 e6 g5 g6 e5 i5 d5
+h7 i8 j9 j8 i9 h9 k8 l7 j7 i6 k11 j10 l11 k9 m10 l9 k12 j13 m11 j11 m12 m9 k14 k10 n11 l13 o11
+b14 b13 e14 e11 f12 d11 e10 f10 g11 e13 d12 g12 j10 f8 j8
+d3 f7 d4 e4 d5 d6 d2 d1 e2 f2 c3 b2 e3 f3 e5 f5 g7 f6 b3 a3 c4 b5 c5 c6 e6 a2 c1 c2 g5 f4 e8 e9 j6 i6 j7 j5 i8 h9 k7
+a9 f15 a10 e9 d8 f9 d9 d10 f8 e10 e8 g8 d11 c10 f10 e11 e7 c9 f12 c8 c7 a7 b8 d6 i6 g6 e6 f5 e4 e5 g5 i8 h4 f6 g7 i7 f3 j9 h7 h5 d5 c6 f4 g4 e3 d2 d4 g3 c4 i5 b4
+h8 i7 j6 i6 j7 j8 i5 k7 h6 i9 h10 h7 j4 g7 j5 j3 i10 g10 e7 h5 g8
+b4 d2 g2 f5 e4 f6 f4 d4 d5 f3 e7 e6 g4 g7 e5 g3 d6 c5 b6 b8 h6 f9 g9 i7 j7 h4 j6 f8 f7 i5 h3 e8 d8 d7 c6 d10 c7 e9 c11 b9 b7 c8
+c3 d4 d5 e6 e7 f8 g6 g5 f4 g7 c6 c7 e9 f9 f3 e4 f5 f6 h8 f10 f7 h5 f11 j9 i5 k8 e10 e8 g12 h13 j6 h4 j7 i3 j2 k5 l6 k6 k7 l7 i10 i4 o13 j5 l13 m8
+a10 c14 c12 e10 d9 f12 e9 c9 f8 f7 g10 g7 d7 f9 h7 i8 d8 d6 h8 h9 f10 g11 e8 g8 c8 b8 e6 b9 f5 g4 e5 e7 g5 h5 c5 d5 b6 c7 e3 m10 d4 l11 a7
+c3 d4 f7 e4 f4 d5 d6 e5 f5 f6 f3 e3 e6 c5 f2 f1 b5 d7 f10 f9 h8 g9 e9 d8 g10 h10 h5 e7 c9 o11 h4 k11 h6 j12 h7
+c8 h5 e13 h6 c11 h7 h8 f7 b10 d12 c10 c9 e10 d10 d9 f11 b11 b9 e11 e9 e8 a12 f8 f9 g9 h10 d5 g6 d11 a11 e5 d6 b7 a6 e4 c6 e6 e7 i7 f10 e12 e14 f13 g14 e3 e2 c5 b5 d4 h4 h3 b6 g5 f5 d8 b8 f4 b4 c4 m11 g4
+c3 d4 f7 d5 f5 e3 d6 f6 g4 g6 e6 d7 i5 i4 h6 g5 h3 i2 h4 h5 j6 g3 g7 f8 i7 h7 k5 h8 k7 l8 j4 g12 k3
+h8 b8 k13 e9 h10 e8 h9 h11 e7 f9 g10 d8 f8 g9 d9 f10 g11 c8 a8 d7 c7 e6 o13 f5 l14 g4
+c3 d4 f7 d5 d6 e4 f4 e5 f5 f6 f3 e3 e6 f2 c5 e7 j7 e8 g4 h3 g7 i6 g8 h9 j6 h7 g9 g10 h8 c14 i7 c13 k5
+h8 i7 i9 g7 j9 j7 h7 h9 j10 j11 i10 k10 g10 i11 g11 n9 h10 o10 f10
+c8 h11 e3 i10 h9 j9 k8 g12 f13 i11 g11 k10 i12 j10 l10 h10 g10 i8 l11 j12 j11 k13 l14 g9
+h8 g8 h9 h10 h6 h7 i6 g9 f6 g6 g7 i9 f8 i5 f5 f7 g5 d4 f4 e3 h4 e7 g4 i4 f3 h5 f2
+a10 c14 c12 f11 f10 e12 g10 d13 b15 h10 f9 h11 g9 g11 e11 h8 h9 i9 f12 i8 i10 j8 l8 k7
+g4 h7 d3 g6 d4 h5 d5 d6 e4 h4 h6 f7 e8 e7 g7 f8 c5 f6 d2 d1 f4 c4 g5 e3 f5 e5 c6 b7 d7 f9 f10 e6 h10 i7 i8 j5 i5 j4 j3 i6 g8 k4 l3 k7 k8 i4 l4 l7 j7 k6 g10 h3
+g13 h13 i13 c10 m10 f11 h12 i11 g11 f10 g12 g10 h14 g15 f12 d10 e10 e12 d13 f9 j10 f7 f8 e8 j14 k15 j12 i12 j11 h11
+f11 j6 c6 g6 d9 g8 c8 e10 c9 c7 f9 g9 g10 e8 e9 b9 f10 f8 i8 e12 d10 f12 d8 d11 c10 h6 i6 d6 h10 e6 f6 g7 g5 e7 c5 f7 d7 h9 i10 d5
+b12 c11 d10 f10 f9 e11 d12 d11 f11 e12 e10 g12 h11 c10 f13 e7 d8 c8 c9 e6 d7 d6 f8 b11 a11 e8 e9 d9 g7 a12
+h8 b14 l4 e11 i7 b11 f7 c11 d11 b12 j6 k5 b10 e9 f8 f10 g8 e8 e10 f9 j8 i8 h9 i12 i10 i14 j11
+h8 h9 l10 g7 k11 g9 j12 i13 m9 n8 i9 g8 j10 l12 g10 f7 i10 e8 h10 f10 g6 e6 d5 e7 j8 e9 j9 e10
+a14 o14 m1 h8 l1 g8 k1 j1 i8 f8 e8 g9 i7 g7 g6 h10 e7 j10 i9 g10 g11 i10 k10 f10
+b13 c12 d11 k11 e9 l10 e11 j12 m9 i13 h14 i11 c11 f11 b11 a11 b12 b10 d10 f8 a13
+b2 h15 n2 h6 e5 h5 d5 h7 h4 g6 f6 e8 f7 h8 h9 g8 d4 c3 f8 f5 e4 g5 f4 g4 g7 j5 i5 i6 f9 k4
+a9 f15 a10 e9 e7 d8 f10 f8 g7 d9 a7 a6 a11 a8 d7 f7 e6 c8 e8 d10 f6 e5 c6 m15 f9 l15 g10
+d6 l7 i3 l6 f6 l4 l3 j6 g5 h4 g6 h6 g7 l8 l5 i5 k7 g3 f2 g8 h8 k6 i6 e5 k3 m3 k5 m6 n6 k8 n5 j5 m8 h3 i4 h5 h7 h2
+h3 e8 m5 g8 j3 f8 h8 g6 k3 i3 j2 l4 j5 j4 i4 k6 k2 i2 k5 i5 g7 i6 l3 m4 n4 l5 n3 m3 k4 k1 h5 l1 n5 j6 h6 l6 m6 l8 l7 k7 h4 m9
+h8 h13 m6 h10 k6 i11 j6 l6 g9 i7 h9 i9 i8 j7 k7 j8 l8 m9 k5 k4 i5 h4 h6 h5 g7 j4 g6 i6 g8 g4 g10
+b12 c11 d10 f10 e10 d9 g9 f8 e8 h9 f9 g8 e12 e11 d7 c6 c12 d12 d11 b13 f13 g14 b9 c10 e6 f5 e7 e9 c7 f7 b8 i10 j11 f4 f6 b7 c8 a10 d8 a8 g5 e4 c9
+h8 h9 l10 g7 i10 g9 i8 g8 g10 f9 i9 i7 j10 h7 k11 l12 k9 j7 k10 f7
+h8 g7 l9 f8 e9 g6 f9 g9 g8 e7 d6 i5 h6 h7 f7 f5 e4 g5 h5 h4 f6 g3 m5 g4
+o1 a1 h8 g7 g9 h10 f10 e11 i8 h9 g8 f8 i6 i7 h7 j5 g6 j9 h5 n9 h6 n5 h4
+b11 c12 d13 d10 e10 f11 g9 f12 e11 e12 d12 f10 f9 e9 c11 h12 g11 f14 f13 g10 i8
+h8 g7 k9 f7 k10 g6 k8 k11 i7 h6 k7 k6 l7 j7 i8 g8 g9 j6 i6 i9 j9 i5 l11 j4 m12
+m8 h5 k13 h6 m11 h7 h8 j7 m10 m9 n10 l12 k10 l10 l9 j11 k11 k12 k8 m12 n11 o12 n12 n9 l8 j8 k7 k9 i7 j6 j5 k6 l6 i8
+h8 g7 i7 g9 i6 g6 g8 i8 j6 h7 j9 j7 k5 l4 k6 l6 i5 l7 l5 b6 j5 m13 m5
+h8 i10 f6 g9 g6 i9 h6 i6 i8 h9 j9 h7 g8 f8 g5 f4 j8 k8 e7 h4 e6 d6 g7 g4 e5 h5 d4
+h8 h7 g7 i9 f8 i7 f6 i8 i6 h6 f5 f7 e5 d4 g5 h5 c5 d5 e7 h4 h3 d6 d8 d3 c9
+i2 h3 g3 g5 f6 h6 f4 g7 e5 h2 f5 f7 f3 f2 d4 d7 c7 d6 e4 c4 c3 b2 e3 e7 d3
+g4 h4 i4 g5 f6 f7 h7 i7 j8 j6 i5 h8 k5 g9 f10 i3 j5 l5 k6 o15 l7 o14 m8
+a9 f15 a10 e10 e8 d8 d9 c10 f10 f9 g8 e12 e11 d11 f13 c12 b13 d12 f12 c11 c13 d13 d14 f11 g10 b10 a11 c14 b15 e13 f14 c9 c8 a8 b9 b11 e14 g13 e6 d7 g9
+h8 g7 g9 f10 i8 j8 h9 i7 f9 i9 g10 j7 h7 h10 g11 m7 g12 k7 g13
+b13 c12 d11 f11 e9 d9 g10 e10 g12 c8 b7 e8 f7 d8 f8 d10 g9 g11 d6 e7 f6 f9 e5 c10 f4 c9 f5
+h8 g7 k9 f7 k10 g8 k8 k7 j8 h9 i10 g6 k11 k12 g5 h6 i8 l8 i6 i7 j9 h7 e7 h11 j10 e6 d5 f6 d6 f9 l10 g9 m10
+h8 h9 l10 i7 j9 j10 m9 i10 l9 i9 i8 g8 f7 l11 k11 j12 n8 o7 l8 k12 j11 g10 k8 h10 j8
+a9 f15 a10 g1 d9 e8 e10 d10 f11 g12 g8 f9 e6 c8 h9 i10 h11 i8 h10 h8 g11 i11 i9 f12 e11 d11 f6 h12 e12 e13 h6 i6 k9 j9 j8 k7 i7
+h8 f8 i7 g9 j8 h10 i11 j10 i8 k8 h6 g5 h7 h5 j7 e7 d6 g7 g6 j9 f6 e6 i6 j6 i5 i4 i9
+h8 h7 g7 g8 f9 g9 e8 f6 e9 f8 g10 d7 h10 f10 h11 i12 f11 e12 e10 e7 h12 i4 h9
+h8 h9 l10 j8 k10 j10 j9 l11 i11 j11 i10 k8 g9 h10 g11 h11 g10 h12 h13 g12 g7 g8 i7 j6 i8 i9 h7 l2 g6
+h8 h7 f9 i7 f8 i8 i9 g6 j9 g7 f7 f10 h9 g9 g8 i10 f5 f6 d7 m2 e6 j2 d5
+n2 k3 j4 k7 i6 l4 m5 l5 l6 h5 h7 k5 k4 j5 i5 i7 j6 k6 j7 i11 g6 f6 i10 h3 g2 h4 h2 i3 g5 j3 l3 g3
+h3 e8 m5 j3 f7 f8 j5 g8 h8 g7 k6 d8 c8 i4 k5 i5 h6 g9 g6 i6 i7 h10 e7 g10 g11 f9 h7 h11 i12 d7
+d2 e4 e5 f6 g6 g5 h4 e9 g3 d8 f2 i5 h2 e7 c9 d6 h3 h6 f4 i1 f8 c7 b6 d7 e2 g2 d5 f7 c5 g7
+b7 c8 c9 e9 f10 e7 e8 g10 e11 g9 d10 b8 g8 f8 h10 f12 d11 d9 e10 f9 h9 c11 c10 b10 f13 e12 i10 f7 h11 g12 h8 h13 h7
+b2 d3 e5 f6 f7 g6 h6 h7 d6 c7 f5 g5 g8 e6 g9 c5 f8 g7 h8 i8 d8 e8 d9 d7 f10 f9 e11 i7 d12
+a10 c14 c12 e11 e12 d10 c9 f12 c10 c11 d11 b9 e8 f9 f8 d8 h9 e9 f13 g14 g10 f11 g11 g12 h13 g13 h14 f7 j10 b10 b11 d12 e13 b12 a13 d7 g7 g8 d9 a12 h8 i9 h10 h7 i10 k10 f10
+m2 k4 j5 j7 k7 i5 h6 i4 i6 g6 h5 h8 g8 i9 h9 j10 k11 h4 j4 i3 g5 j3 i2 g3 f2 h3 f3 k3
+h9 h10 h13 f11 i11 j11 i9 i10 k9 j9 j10 l8 k8 k7 h8 k11 h6 m9 j6 l10 h5 h7 f6 g7 i6 j7 g6
+h3 e8 m5 f8 k6 f7 j5 i4 k5 g6 h5 d8 g8 f9 f10 f6 f5 d7 l5 n5 d9 g10 e10 h11
+k5 l4 m3 j7 m4 m6 k3 l3 l6 k7 m7 j4 n8 o9 l8 j8 k9 j10 j6 h7 l7 l9 i6 i8 j9 h8 h6 k6 k8 h9 h11 g10
+b14 b13 e14 e11 d11 g12 f10 d10 f12 f11 g11 h10 h12 e9 i13 j14 e10 f8 g7 g9 e7 h9 f9 h7 g8 c12 h11 g10 i8 c11 b12 d13 e12 c13 c10 e13 f13 a13
+m3 l4 n4 j7 k3 l3 l5 k5 m6 k7 k4 n7 m4 m7 l7 j6 l6 l8 i5 n10 m9 j8 j9 k8 m8 h8 k6 i8
+a9 f15 a10 e9 d8 d7 e10 c10 g10 f7 a8 a7 f11 d9 a11 a12 h9 e12 h10 f10 h11 h12 g11 i11 h7 h8 d11 e11 f9 g8 i12 e8 j13
+f3 k5 i3 k4 h3 j3 i2 k2 k6 i4 h5 g4 h4 h6 i5 g3 g5 k3 k1 j2 f5 i6 e5
+o10 m14 m12 j11 k13 k10 k12 j13 i12 j12 j10 i9 h10 k8 k9 l8 j8 i7 i6 l7 j9 k7 j7 j6 m9 k5 l4 k6 k4 l9 l10 m8 m11 n7
+f3 k5 i3 k4 h3 j3 i2 i4 g4 f5 g5 g3 h5 i6 h4 h6 f6 g6 e7
+o10 m14 m12 l11 j11 k13 k10 m10 l9 m8 i10 m9 m7 j13 k12 l13 i13 i11 h10 j10 h12 h13 h9 g8 j9 m13 n13 h11 i9 k9 g11 f10 f12 k8 e13
+h8 j8 k8 i10 h7 j11 j7 h9 g8 i6 i7 g7 k7 l7 k5 k6 j6 g9 l4
+h3 e8 m5 f9 k5 i5 l5 j5 n5 o5 k3 j3 k4 k6 m4 j1 l4 f10 j4 f11 i4
+h8 h9 l10 g7 j10 g9 i10 k10 i9 g10 g8 i8 j7 j9 l11 k11 k9 l8 l12 l13 m11 n12 k13 j14 m10 n9 k7 j8 m8 m7 h7 k5 m12 m9 i4 j5 m14 m13 h5 h6 i12 i11 i14 j12 f8 l5 i5 l6 l7 i7 j4 l3 e8 d8 j13 k12 g6 f7 k8 i6 n11 l9 o9 n10 j6 k4 m2 k2 h4 g3 f4 g4 k3 n5 c9 m5
+h8 i8 l9 j9 k10 j11 j7 k8 i10 h10 j12 l8 m8 i9 g9 g11 f12 k7 j8 h11 i11 j6 i5 h13 h12 g13 f13 g12 g14 f11 e10 e12 d8 k5 k6 l4 m3 g10 h9 l7 l6 j13 i12 i14 j15 k13 i13 l12 m11 l11 k12 m5 j5 n7 o7 n5 m6 n6 n8 k2 m4 k9 m7 n10 m9 l13 l10 e8 d7 f10 j10 m10 d11 j2 k3 f9 f7 n3 n4 l14 l15 n13 m13 l5 o5 l2 i2 m2 n2 l3 l1 d13 c14 g7 f5 e6 g5 h5 f6 f4 e7 b1 c9
+b14 c13 d12 e10 f11 d10 f10 f9 e12 f12 d13 c14 c12 b11 g9 h8 e7 g10 d8 h11 i12 h10 h9 g8 h7 i8 f8 i10 j8 i9 a12 b12 c5 d6 i7 j10 k10 k11 g6 l12
+h8 m6 i3 m5 f6 l4 g7 i9 e5 d4 g5 j2
+a9 f15 a10 e10 a11 a8 g8 f11 e9 g12 a13 a12 d9 f12 c9 b9 d8 f13 f14 h11 e7 b10 e14 h12 f9 g9 i12 h13 a7 i14
+h8 i8 l9 h11 k7 f9 j7 i6 j6 e8 g10 i7 i9 j8 k9 i5 i4 j9 j10 k11 l8 i11 m7 n6 l7 n7 l6 e5 l10
+h8 i9 j12 g10 i10 h9 j9 h11 f11 f9 e8 h10 g11 j8 h12 f10 i12 k12 e9 e10 d10 g8 d11 e11 f12 g12 d12 d13 e12 f8 c11 f7 f6 b12 f13 o1 g14 o2 h15
+b14 c13 d12 g11 e10 f9 d10 f10 e9 e11 c11 f8 b12 a13 f11 d9 e12 c12 d13 c14 d11 d14 c10 o15 f13 o1 g14
+h8 j8 m10 k9 j9 l10 i7 k11 l11 k10 k12 n9 g9 j6 k7 n8 m9 n10 n11 l8 n7 m11 n12 l12 a1 k13 a2 j14
+a9 f15 a10 e10 f11 g9 f10 f8 e7 g8 g7 e8 d8 h7 f9 i8 h8 g6 f5 f7 o1 d9 o15 c10
+h8 i9 i7 g9 j7 j9 h9 h7 j6 j5 i6 k6 g6 i4 l7 k8 k7 m7 h6 f6 f8 h3 g2 g7 g8 i8 f7 a15 i10
+h3 e8 m5 j5 a1 g7 b2 g8 c1 h7 d2 i6 e1 k4
+b12 c14 e14 f10 f11 g11 h12 h10 f12 e12 e10 g12 g13 e11 j10 i11 g9 h7 b11 f9 f13 e13 j13 i13 h14 i14 i12 j11 h11 k14 d9 f7 b10 b9 l2 f8 h5 f6
+b12 c14 e14 f10 f11 g11 h12 h10 f12 g10 i10 g12 g9 e9 d8 e8 e10 f7 f9 g13 g14 g6 h5 d11 j11 h9 h14 i14 j9 c10 d9 h7 h11 i12 j10 h8 h6 j8 k11 k7 i9 i13 i11 l11 k9 l8 m9 l9 l10 j12 k10 m10 k12 k13 k8
+b12 c14 e14 f10 f11 g11 h12 h10 g10 e11 g9 h9 f12 h7 h8 g8 g12 i12 e10 h13 d12 e12 d10 d8 e9 c11 b11 c12 d9 c8 c9 f9 b9 a9 b10 b13 b8
+b12 c14 e14 e11 f10 d9 e9 g11 f11 f9 g8 h10 i9 f12 d10 c11 g12 e13 d14 i8 h11 f13 c10 b10 d12 d13 g13 j10 e7 e8 g7 g6 h6 f8 h7 d7 g10 e10 i7 f7 h5 c6 b5 h8 g5 f6 f5 d6 e6 d5 d8 d4 d3 b13 c13 d11 c12 b11 a11 e15 j8 m2 k9
+b12 c14 e14 e11 e9 f9 f11 d10 f12 f10 d12 g8 e12 c12 g10 h9 g12 h12 g11 g14 h10 e13 i11 e10 d11 h7 i6 c10 b10 c13 c11 f13 b13 g13 d13 b11 j11 h11 j10 i13 h13 j9 j12 k13 i14 j15 i9 j8 l11 j13 k11 m11 l12 h8 m13
+b12 c14 e14 e11 f9 d10 g10 e8 e9 d9 d8 g11 b10 e7 b11 b9 c7 f10 c12 d13 d12 f12 g13 h11 f11 i8 e13 c11 h13 e10 h10 h8 b14 b13 e12 a12 g14 i13 d11 f13 j11 i12 h14 h12 j14 f7 b6 a5 d14 f14 g6 i7 g9 i9 i14 k14 g12 j15 i6 g7 h7 j10 k3 k11
+b12 c14 e14 e11 d10 e9 g9 e10 e12 c8 d9 d8 e8 c7 b6 d11 f11 f7 e7 c10 c9 f6 f9 g10 f5 d6 e6 e5 f4 d4 g7 d5 d7 d3 d2 a9 b8 b5 c6 e2 c4 e3 f3 c3 b2 g1 f2 f1 e1 a7 h3 g4 a5 i9 j5 f10 g11 h10 i10 a10 a11 a6 a8 j4 k6 i4 k8 j9 i6 a3 b3 l9 h7 g8 k4 l3 k7 k5 k9 k10 j8 i3 h2 i7 l8 i8 j6 l11 m12 l6 m7 j10 i5 m9 h4
+h8 j3 m10 i9 i3 j8 k7 i7 k9 k10 i8 j9 j7 k6 l8 j6 l9 l7 k8 m1 n11
+b13 c12 d11 f11 f10 e9 e8 g10 e12 d9 g9 h8 c9 f8 e11 d10 g7 c11 b12 f13 c8 d7 e5 e7 g5 g6 h6 i8 j7 i7 i6 j9 f5 j8 g8 d6 d8 c5 b4 h5
+h8 h9 j6 g8 i10 i7 j9 i6 h7 k8 i5 j7 h5 h4 i8 g6 i11 g5 g7 i9 j11 l11 h6 f8 j10 j12 g13 h12 g11 h11 g10 h10 h13 l9 m10 g14 i13 n14 j13 d6 k13
+a9 f15 a10 d6 f6 f5 e8 e5 d5 f4 g3 e4 a11 a8 e3 g4 d4 h3 i2 h7 a12 a13 d3 g8 f3 c3 d2 d1 i4 g6 i8 g7 g5 g9 i6 g10
+c2 h2 f2 f5 e6 h5 e5 h4 h3 e4 g6 f6 f4 g5 i3 h7 h6 j5 i5 i6 g8 j7 g4 k7 g7 k8 l9 l7 i7 k4 j4 l3
+b14 c13 d12 e11 f10 e9 d10 f9 e10 c10 d9 d11 f11 g12 g6 h10 h11 i9 g9 j8 k7 j10 i11 f12 g11 j11 j12 k10 i10 l9 l4 i12 k4 h13
+c2 h2 f2 f5 e4 h5 e5 e3 h4 g4 f3 e6 d7 i5 g5 i3 i2 j4 k5 h6 g7 k3 l2 j3 l3 g6 f6 i4 h8 k2
+n13 n11 m11 k10 k9 j8 j9 l9 m8 h8 k8 i10 h10 g8 h9 g7 i9 g9 g6 g11 g10 f10 e11 f8 i8 d8 e8 e9 i3 h12
+c3 l6 h5 d4 m5 e6 f7 d6 c6 g6 d7 e7 c5 c4 e4 f9 e8 d5 b5 a4 h6 g9 g7 e9 h9 f8 h10 c9 d9 d8 f6 f10 g11 e11 h8 f12 f11 d10 l8 g13
+i4 g11 d5 h5 e6 f5 e4 f3 e5 e3 f7 g8 g7 e7 d4 f6 c4 f4 b3
+b6 b9 b8 e6 d7 e7 e8 f9 e5 d6 c5 d4 b5 d5 c8 d8 c6 m1 a4
+b6 b9 b8 f7 f8 e9 e7 d6 g6 d9 c9 d8 d7 e11 f10 d11 e12 f11 c11 g12 c8 h11 g11 c10 h13 e8 b11 i10 j9 h9 g8 f9 g9 i12 g10 i11 i13 h12 j12 h8 h10 j10 g13 i9 i8 k11 g7 l12
+h8 h9 l10 m9 m8 j8 k10 j10 j9 l11 k6 l7 k7 k8 k5 j6 k4 k3 l5 m6 j5 n5 o4 i5 m4 n3 i8 j7 h7 g6 i6 g8 l3
+n11 n14 m11 k11 l12 l10 k13 j14 j12 m12 k8 l9 l8 j9 n10 o9 n8 l1 m8 h1 o8
+m13 j13 h12 j10 j11 k11 i10 k12 k10 i12 h11 j9 f11 i14 l11 i13 i11 g11 h14 h13 g13 f12 i9 i7 e14 f14 e10 g9 f7 g8 g10 f10 h8 e12 d9 c8 e8 c10 d7 f9 e7 l3 e9 n4 e11
+m12 k14 n13 k10 k12 j12 j11 i10 h10 k8 m10 k7 k11 l11 j9 j8 k9 l8 m8 m9 j6 l7 l9 i8 h8 i9 i7 l6 m5 l5 l4 k5 k6 m7 j4 n7 k4 j7
+a9 f15 a10 d10 d8 c8 e7 c9 c7 e9 d7 b7 g7 f7 d6 d5 g9 f8 g6 g5 f6 e6 e5 n11 b8
+b12 c14 e14 e11 f11 e9 e10 d9 c9 f10 g9 g7 f8 e7 e6 f6 g5 h8 i9 f7 d7 g6 e8 f5 h7 f4 f3 e5 d4 c7 l4 d8 k11 g11
+b10 o15 o1 e10 e9 f8 d8 f10 g10 f9 f11 e7 h9 f7 f6 i8 g8 g7 h7 d6 g9 c7 d7 c5 b4 c4 c6 e5 f4 d5 m3 f5 l1 g5
+b12 c14 e14 e11 e9 d10 f12 g11 f11 f10 g9 h9 f13 e10 c10 d12 h10 f8 d11 c13 b14 e12 i11 g13 j12 k13 i12 i13 j13 h11 h12 g12 g14 f15 i14 k12 h14 o8 f14
+o10 m14 m12 k10 l9 m9 i10 k11 k8 j9 j7 m10 l10 l8 i8 i7 h9 k6 i6 h5 g8 n1 j11 o1 k12
+h3 e8 m5 f8 k3 g8 h8 g6 j3 i3 j2 l4 j5 j4 i4 k6 k2
+h3 e8 m5 f8 k3 g8 h8 g6 j2 l4 j3 i3 j5 j4 i4 k6 i2 h2 k5 l5 h5 k2 g4 f5 i6 j7 i8 i5 h6 l3 l6 m4 n3 n5 o6 j1
+h3 e8 m5 g7 k3 h7 j3 i3 j2 l4 j5 j4 k5 l5 k6 i4 k4 i5 k7
+c7 e5 e4 f5 g5 h6 d5 f3 f7 f4 f2 g3 h2 e6 d7 e7 i2 e2 h5 d8 i4 g6 j2 g2 f6 i3 j3 k2 k4 l5 j4 e3 h3 d3 c3 e8 e9 j6 h4 k6 g4
+o10 m14 m12 k10 j11 i11 k9 i10 i9 j9 h11 j7 h7 l7 i7 k8 m6 l10 m10 j8 j6 l8 m8 l9 m9 l11
+g3 h3 i3 g6 f6 f5 e5 d6 g7 d4 h4 e7 i5 j6 i7 i6 h6 f8 g5 g9 j2
+e1 h1 f2 h4 e5 f4 d5 f5 e3 d4 e4 e2 c6 f3 e6 e7 f7 c4 d6 f6 g8 h9 d8 g5 i3 h5 b7 a8 d9 d7 a6 b6 c8 e10 e8 f8 c10 g4 g6
+h8 i12 i4 k10 i6 l11 k8 l9 j11 l10 l12 j10 i10 m10 n10 k12 n9 j13 i14 h11 k14 l8 l7 k9 j9 m6 i11 k11 k13 m7 n6 m9 m8 j12 m11 i13
+j14 n12 l12 k10 j12 l10 j10 j11 k11 i9 l14 i12 l9 h13 g14 k13 i13 g11 h14 g15 f12 k9 j8 h9 n14 m13 k14 m14 j9 m11 o13 m12 m15 m10
+h8 h9 f10 g9 g8 f8 i9 j10 h10 j8 f11 f12 e10 d10 f9 d11 i10 g10 i8 i7 h7 i6 j9 g6 g12 h11 h13 d9 i14
+a10 a5 a11 e10 e11 c9 f10 d12 f9 f11 d9 e12 a12 a9 e8 c12 c10 b11 f12 g10 f7 g6 h9 g8 f6 f8 g9 e9 h8 i7 i9 g7 j9
+h8 h9 f10 g9 g8 i9 f9 f8 e10 d11 e7 e9 f6 g7 d10 g10 c9 d8 c8 c10 f11 g12 f12 f13 e11 g13 b8
+a10 d14 f13 f12 e13 e12 d12 c11 g8 c9 e11 c13 g10 e9 g9 g7 f10 h8 g12 g11 h11 i10 f9 e8 e10 c10 c12 d11 e14 d15 d13 b11 h13 d9 g13
+n13 m12 m11 j11 k9 l10 k12 i9 n9 j10 m10 l11 n10 l12 n12 n11 l13 k11 m13 h8
+b14 c13 d12 e10 c10 f8 e12 d11 c12 f12 b11 b12 e8 d9 c8 c9 f9 e11 d10 g11 h11 f11 c11 g10 g12 e13 d14 f13 d13 f14 f15 f10
+h14 g14 f14 f11 g11 e12 d11 e10 g10 g12 h13 e9 e11 f9 h12 d9 c8 c9 g9 b9
+a9 h15 a7 j9 d9 k7 d10 l7 d8 d7 e9 j7 c9 b9 g9 f9 d12 i7 d11
+g14 f14 e14 e11 f11 f10 e9 g9 h8 h10 f8 g10 i10 d10 e10 f12 g13 g11 g12 i9 f13 j8
+b13 c12 d11 b12 c13 e13 e12 f11 f10 c10 e9 g11 h10 e10 d9 d12 g9 c9 c11 i11 h11 h8 i10 h9 g12 j9 g14 f13 i12 g10 h12 f12 h13 f15 h14
+b2 n14 c2 e5 f4 f2 e6 g6 d5 c6 c4 b3 f5 g8 d4 i5 e4 o10 g4
