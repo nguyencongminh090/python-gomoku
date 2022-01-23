@@ -9,7 +9,7 @@ class Tree:
         self.val = ''
         self.note = ''
 
-    def add(self, lst: list):
+    def add_game(self, lst: list):
         child = [i.__node for i in self.__child]
         if lst[0] not in child:
             self.__child.append(Tree(lst[0]))
@@ -39,13 +39,20 @@ class Tree:
                 ret = k
         return ret
 
-    def get_next_move(self, move=''):
-        if not move:
-            return self.__cur
-
+    def goto(self, move=''):
         self.__past.append(self.__cur)
         child = [i.__node for i in self.__cur]        
         self.__cur = self.__cur[child.index(move)].__child
+
+    def add_move(self, node='', move=''):
+        if not node:
+            self.__child.append(Tree(move))
+            return
+        child = [i.__node for i in self.__cur]
+        self.__cur[child.index(node)].__child.append(Tree(move))
+        return
+        
+    def get_next_move(self):   
         return [i.__node for i  in self.__cur]
         
     def undo(self):
@@ -55,6 +62,10 @@ class Tree:
             print('Empty')
             return 'Empty'
 
+    def reset_curpos(self):
+        self.__cur = self.__child
+        self.__past = []
+        
     def total_nodes(self):
         if self.__root:
             n = 0
