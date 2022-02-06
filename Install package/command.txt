@@ -1,0 +1,2 @@
+1) Run as Administrator Cmd
+2) pip3.9 install .

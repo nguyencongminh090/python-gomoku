@@ -1,4 +1,4 @@
-from tree import *
+from tree_node import *
 
 
 dt = Tree(root=True)
@@ -8,9 +8,12 @@ with open('Exam.txt') as f:
         # Add games to Tree
         dt.add_game(i.split(' '))
 
+# Add game to Tree from Text file.
+# dt.load_txt('exam.txt')
+
 
 # Get next move from position
-print(dt.get_move(['h3']))
+print(dt.get_move(['h3', 'e8']))
 
 # Get next move from Root -> return List
 print(dt.get_next_move())
@@ -39,3 +42,7 @@ print(dt.get_next_move())
 dt.add_move('h3', 'c5')
 dt.goto('h3')
 print(dt.get_next_move())
+
+# Search similar position
+dt.reset_curpos()
+print(dt.sml_search('m5 e8 h3'.split()))  # Correct input is H3 E8 M5

@@ -1,4 +1,4 @@
-import game.tree
+from pygomo.game.tree_node import *
 
 
 class Game:

@@ -1,8 +1,6 @@
-import subprocess
-
-
 class Engine:
     def __init__(self, engine_name):
+        import subprocess
         self.__engine_name = engine_name
         self.__engine = subprocess.Popen(engine_name, stdin=subprocess.PIPE,
                                        stdout=subprocess.PIPE,
@@ -83,12 +81,13 @@ class Protocol:
     def __init__(self, engine):
         self.__engine = engine
         # You can add more option
+        # Default 60 seconds
         self.info_dict = {
-            'timeout_match': 0,
-            'timeout_turn': 0,
+            'timeout_match': 60000,
+            'timeout_turn': 60000,
             'game_type': 0,
             'rule': 1,
-            'time_left': 0,
+            'time_left': 60000,
             'max_memory': 0,
         }
 
