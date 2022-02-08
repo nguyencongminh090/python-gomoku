@@ -69,7 +69,7 @@ class Tree:
         child = [i.__node for i in self.__child]
         return 'Not found' if len(lst) != 0 and lst[0] not in child else \
             self.__child[child.index(lst[0])].get_move(lst[1:]) \
-            if len(lst) != 0 else child if len(child) != 0 else 'Empty'
+                if len(lst) != 0 else child if len(child) != 0 else 'Empty'
 
     def tree_level(self, level=0):
         ret = level
@@ -114,7 +114,7 @@ class Tree:
         child = [i.__node for i in self.__child]
         return [] if len(lta) != 0 and lta[0] not in child else \
             self.__child[child.index(lta[0])].__get_pos(lta[1:]) \
-            if len(lta) != 0 else self.__child if len(child) != 0 else []
+                if len(lta) != 0 else self.__child if len(child) != 0 else []
 
     def set_pos(self, lst):
         self.__cur = self.__get_pos(lst)
@@ -238,6 +238,27 @@ class Tree:
                 stack.pop()
                 self.undo()
                 fn = fn[pos:]
+
+    def print_all_move(self, line=''):
+        out = ''
+        k = ''
+        if not self.__root:
+            k = self.__node + ' '
+        if not self.__child:
+            out = line + self.__node + '\n'
+            return out
+        for child in self.__child:
+            if k not in line:
+                line += k
+            out += child.print_all_move(line=line)
+        return out
+
+    def add_rotate(self):
+        for i in self.print_all_move().split('\n'):
+            if i:
+                for j in self.__rotate(i):
+                    if not self.sml_search(j.split())[0]:
+                        self.add_game(j.split())
 
     def __str__(self, line='', n=1):
         out = ''
