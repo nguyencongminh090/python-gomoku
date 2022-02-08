@@ -189,8 +189,7 @@ class Tree:
             out += k
         for child in self.__child:
             out += child.tree_record()
-            if not self.__root:
-                out += ')'
+            out += ')'
         return out
 
     def load(self, fn: str):
