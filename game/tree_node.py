@@ -98,7 +98,6 @@ class Tree:
             return
         child = [i.__node for i in self.__cur]
         self.__cur[child.index(node)].__child.append(Tree(move))
-        return
 
     def get_next_move(self):
         if not self.__cur:
@@ -140,20 +139,14 @@ class Tree:
         if fn:
             with open(fn) as f:
                 data = f.read().split(delimiter)
-                for i in data:
-                    if len(i.split()) > 0:
-                        if not rotate:
-                            self.add_game(i.split())
-                        else:
-                            self.add_game(i.split(), rotate=True)
-        elif strg:
+        else:
             data = strg.split(delimiter)
-            for i in data:
-                if len(i.split()) > 0:
-                    if not rotate:
-                        self.add_game(i.split())
-                    else:
-                        self.add_game(i.split(), rotate=True)
+        for i in data:
+            if len(i.split()) > 0:
+                if not rotate:
+                    self.add_game(i.split())
+                else:
+                    self.add_game(i.split(), rotate=True)
 
     def print_tree(self, level=-1):
         k = "    " * level + str(self.__node) + "\n"
@@ -170,7 +163,10 @@ class Tree:
         b_list = lst[::2]
         w_list = lst[1::2]
         state = True  # True: Black, False: white
-        cur_list = b_list if state else w_list
+        if state:
+            cur_list = b_list
+        else:
+            cur_list = w_list
         for i in cur_list:
             if i in [node.__node for node in self.__cur]:
                 stack.append(i)
@@ -180,13 +176,19 @@ class Tree:
                 self.undo()
                 mline.pop()
                 state = not state
-                cur_list = b_list if state else w_list
+                if state:
+                    cur_list = b_list
+                else:
+                    cur_list = w_list
                 continue
             self.goto(stack[0])
             mline.append(stack[0])
             stack.remove(stack[0])
             state = not state
-            cur_list = b_list if state else w_list
+            if state:
+                cur_list = b_list
+            else:
+                cur_list = w_list
             # Find next node
             empty = True
             for i in cur_list:
