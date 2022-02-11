@@ -157,46 +157,41 @@ class Tree:
         """
         Similar Position Search
         """
+
+        def get():
+            return [node.__node for node in self.__cur]
+
         stack = []
         mline = []  # main line
         b_list = lst[::2]
         w_list = lst[1::2]
         k = 0
-        if k % 2 == 0:
-            cur_list = b_list
-        else:
-            cur_list = w_list
+        cur_list = b_list if k % 2 == 0 else w_list
         for i in cur_list:
-            if i in [node.__node for node in self.__cur]:
+            if i in get():
                 stack.append(i)
 
         while stack:
-            if stack[0] not in [node.__node for node in self.__cur] or stack[0] not in cur_list:
+            if stack[0] not in get() or stack[0] not in cur_list:
                 self.undo()
                 mline.pop()
                 k += 1
-                if k % 2 == 0:
-                    cur_list = b_list
-                else:
-                    cur_list = w_list
+                cur_list = b_list if k % 2 == 0 else w_list
                 continue
             self.goto(stack[0])
             mline.append(stack[0])
             stack.remove(stack[0])
             k += 1
-            if k % 2 == 0:
-                cur_list = b_list
-            else:
-                cur_list = w_list
+            cur_list = b_list if k % 2 == 0 else w_list
             # Find next node
             empty = True
             for i in cur_list:
-                if i in [node.__node for node in self.__cur]:
+                if i in get():
                     stack.insert(0, i)
                     empty = False
 
             if len(mline) == len(lst):
-                return True, ' '.join(mline), [node.__node for node in self.__cur]
+                return True, ' '.join(mline), get()
             if empty:
                 mline.pop()
                 self.undo()
