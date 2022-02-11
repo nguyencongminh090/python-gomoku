@@ -27,7 +27,7 @@ class Engine:
                     if _process_name.lower() in pinfo['name'].lower():
                         list_of_process_objects.append(pinfo['pid'])
                 except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-                    pass
+                    continue
             return list_of_process_objects
 
         try:
@@ -54,14 +54,14 @@ class ReadOutput:
             output = self.message.split()[self.message.split().index('depth') + 1]
             return output
         except:
-            return None
+            return False
 
     def ev(self):
         try:
             output = self.message.split()[self.message.split().index('ev') + 1]
             return output
         except:
-            return None
+            return False
 
     def pv(self):
         try:
@@ -120,7 +120,6 @@ class Protocol:
                 self.send('INFO', i, info[i])
             else:
                 self.send('INFO', i, self.info_dict[i])
-        pass
 
     def is_ready(self, board_size=15):
         self.send('start', board_size)
