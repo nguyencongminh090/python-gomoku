@@ -63,7 +63,6 @@ class Tree:
             if lst[it] not in child:
                 self.__child.append(Tree(lst[it]))
             self.__insert(lst[1:])
-        return
 
     def get_move(self, lst: list):
         child = [i.__node for i in self.__child]
@@ -162,8 +161,8 @@ class Tree:
         mline = []  # main line
         b_list = lst[::2]
         w_list = lst[1::2]
-        state = True  # True: Black, False: white
-        if state:
+        k = 0  # k % 2 == 0: Black; k % 2 != 0: White
+        if k % 2 == 0:
             cur_list = b_list
         else:
             cur_list = w_list
@@ -175,8 +174,8 @@ class Tree:
             if stack[0] not in [node.__node for node in self.__cur] or stack[0] not in cur_list:
                 self.undo()
                 mline.pop()
-                state = not state
-                if state:
+                k += 1
+                if k % 2 == 0:
                     cur_list = b_list
                 else:
                     cur_list = w_list
@@ -184,8 +183,8 @@ class Tree:
             self.goto(stack[0])
             mline.append(stack[0])
             stack.remove(stack[0])
-            state = not state
-            if state:
+            k += 1
+            if k % 2 == 0:
                 cur_list = b_list
             else:
                 cur_list = w_list
@@ -201,7 +200,7 @@ class Tree:
             if empty:
                 mline.pop()
                 self.undo()
-                state = not state
+                k += 1
         return False, '', []
 
     def tree_record(self):
