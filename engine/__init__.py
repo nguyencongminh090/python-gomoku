@@ -30,13 +30,13 @@ class Engine:
                     continue
             return list_of_process_objects
 
-        try:
-            for i in find_process_id_by_name(self.__engine_name):
+        for i in find_process_id_by_name(self.__engine_name):
+            try:
                 _proc = psutil.Process(i)
                 _proc.terminate()
-            self.__is_running = False
-        except:
-            pass
+            except:
+                continue
+        self.__is_running = False
 
     def is_running(self):
         return self.__is_running
@@ -53,22 +53,22 @@ class ReadOutput:
         try:
             output = self.message.split()[self.message.split().index('depth') + 1]
             return output
-        except:
-            return False
+        except IndexError:
+            return ''
 
     def ev(self):
         try:
             output = self.message.split()[self.message.split().index('ev') + 1]
             return output
-        except:
-            return False
+        except IndexError:
+            return ''
 
     def pv(self):
         try:
             output = self.message.split('pv')[1]
             return output.strip()
-        except:
-            return False
+        except IndexError:
+            return ''
 
     def __str__(self):
         return f'ReadOutput(depth={self.depth()}, ev={self.ev()}, pv={self.pv()})'
