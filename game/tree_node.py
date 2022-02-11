@@ -67,9 +67,14 @@ class Tree:
 
     def get_move(self, lst: list):
         child = [i.__node for i in self.__child]
-        return 'Not found' if len(lst) != 0 and lst[0] not in child else \
-            self.__child[child.index(lst[0])].get_move(lst[1:]) \
-                if len(lst) != 0 else child if len(child) != 0 else 'Empty'
+        if len(lst) != 0 and lst[0] not in child:
+            return 'Not found'
+        elif len(lst) != 0:
+            return self.__child[child.index(lst[0])].get_move(lst[1:])
+        elif len(child) != 0:
+            return child
+        else:
+            return 'Empty'
 
     def tree_level(self, level=0):
         ret = level
@@ -101,10 +106,8 @@ class Tree:
         return [i.__node for i in self.__cur]
 
     def undo(self):
-        try:
+        if self.__past:
             self.__cur = self.__past.pop()
-        except:
-            return 'Empty'
 
     def reset_curpos(self):
         self.__cur = self.__child
@@ -112,9 +115,14 @@ class Tree:
 
     def __get_pos(self, lta):
         child = [i.__node for i in self.__child]
-        return [] if len(lta) != 0 and lta[0] not in child else \
-            self.__child[child.index(lta[0])].__get_pos(lta[1:]) \
-                if len(lta) != 0 else self.__child if len(child) != 0 else []
+        if len(lta) != 0 and lta[0] not in child:
+            return []
+        elif len(lta) != 0:
+            return self.__child[child.index(lta[0])].__get_pos(lta[1:])
+        elif len(child) != 0:
+            return self.__child
+        else:
+            return []
 
     def set_pos(self, lst):
         self.__cur = self.__get_pos(lst)
@@ -128,9 +136,18 @@ class Tree:
             n += child.total_nodes()
         return n
 
-    def load_txt(self, fn, delimiter='\n', rotate=False):
-        with open(fn) as f:
-            data = f.read().split(delimiter)
+    def load_txt(self, strg='', fn='', delimiter='\n', rotate=False):
+        if fn:
+            with open(fn) as f:
+                data = f.read().split(delimiter)
+                for i in data:
+                    if len(i.split()) > 0:
+                        if not rotate:
+                            self.add_game(i.split())
+                        else:
+                            self.add_game(i.split(), rotate=True)
+        elif strg:
+            data = strg.split(delimiter)
             for i in data:
                 if len(i.split()) > 0:
                     if not rotate:
@@ -153,23 +170,26 @@ class Tree:
         b_list = lst[::2]
         w_list = lst[1::2]
         state = True  # True: Black, False: white
-        for i in (b_list if state else w_list):
+        cur_list = b_list if state else w_list
+        for i in cur_list:
             if i in [node.__node for node in self.__cur]:
                 stack.append(i)
 
         while stack:
-            if stack[0] not in [node.__node for node in self.__cur] or stack[0] not in (b_list if state else w_list):
+            if stack[0] not in [node.__node for node in self.__cur] or stack[0] not in cur_list:
                 self.undo()
                 mline.pop()
                 state = not state
+                cur_list = b_list if state else w_list
                 continue
             self.goto(stack[0])
             mline.append(stack[0])
             stack.remove(stack[0])
             state = not state
+            cur_list = b_list if state else w_list
             # Find next node
             empty = True
-            for i in (b_list if state else w_list):
+            for i in cur_list:
                 if i in [node.__node for node in self.__cur]:
                     stack.insert(0, i)
                     empty = False
@@ -191,6 +211,59 @@ class Tree:
             out += child.tree_record()
             out += ')'
         return out
+
+    @staticmethod
+    def read_rec_file(fn):
+        game = []
+        stack = []
+        pos = 1
+        s = ''
+        with open(fn) as f:
+            fn = f.read()
+        while fn:
+            if not stack and fn[pos - 1] == '(':
+                s += fn[pos]
+                pos += 1
+                while fn[pos].isnumeric():
+                    s += fn[pos]
+                    pos += 1
+                stack.append(s)
+                s = ''
+                fn = fn[pos:]
+                pos = 1
+
+            elif len(stack) == 1 and fn[pos - 1] == '(':
+                s += fn[pos]
+                pos += 1
+                while fn[pos].isnumeric():
+                    s += fn[pos]
+                    pos += 1
+                stack.append(s)
+                s = ''
+                fn = fn[pos:]
+                pos = 1
+
+            elif len(stack) > 1 and fn[pos - 1] == '(':
+                s += fn[pos]
+                pos += 1
+                while fn[pos].isnumeric():
+                    s += fn[pos]
+                    pos += 1
+                stack.append(s)
+                s = ''
+                fn = fn[pos:]
+                pos = 1
+                if fn[pos - 1] == ')':
+                    game.append(' '.join(stack))
+
+            elif fn[pos - 1] == ')':
+                stack.pop()
+                fn = fn[pos:]
+        return '\n'.join(game)
+
+    def save(self, fn):
+        with open(fn, 'w+') as f:
+            f.write(self.tree_record())
 
     def load(self, fn: str):
         stack = []
