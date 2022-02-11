@@ -230,12 +230,7 @@ class Tree:
         with open(fn) as f:
             fn = f.read()
         while fn:
-            if not stack and fn[pos - 1] == '(':
-                stack.append(get_string(fn, pos))
-                fn = fn[pos:]
-                pos = 1
-
-            elif len(stack) == 1 and fn[pos - 1] == '(':
+            if fn[pos - 1] == '(':
                 stack.append(get_string(fn, pos))
                 fn = fn[pos:]
                 pos = 1
