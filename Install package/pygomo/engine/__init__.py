@@ -3,9 +3,9 @@ class Engine:
         import subprocess
         self.__engine_name = engine_name
         self.__engine = subprocess.Popen(engine_name, stdin=subprocess.PIPE,
-                                       stdout=subprocess.PIPE,
-                                       stderr=subprocess.PIPE,
-                                       bufsize=1, universal_newlines=True)
+                                         stdout=subprocess.PIPE,
+                                         stderr=subprocess.PIPE,
+                                         bufsize=1, universal_newlines=True)
         self.__is_running = True
         self.protocol = Protocol(self.__engine)
 
@@ -13,25 +13,25 @@ class Engine:
     def kill_engine(self):
         import psutil
 
-        def findProcessIdByName(_processName):
+        def find_process_id_by_name(_process_name):
             """
             Get a list of all the PIDs of a all the running process whose name contains
-            the given string _processName
+            the given string _process_name
             """
-            listOfProcessObjects = []
+            list_of_process_objects = []
             # Iterate over the all the running process
             for process in psutil.process_iter():
                 try:
                     pinfo = process.as_dict(attrs=['pid', 'name', 'create_time'])
                     # Check if process name contains the given name string.
-                    if _processName.lower() in pinfo['name'].lower():
-                        listOfProcessObjects.append(pinfo['pid'])
+                    if _process_name.lower() in pinfo['name'].lower():
+                        list_of_process_objects.append(pinfo['pid'])
                 except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
                     pass
-            return listOfProcessObjects
+            return list_of_process_objects
 
         try:
-            for i in findProcessIdByName(self.__engine_name):
+            for i in find_process_id_by_name(self.__engine_name):
                 _proc = psutil.Process(i)
                 _proc.terminate()
             self.__is_running = False
@@ -55,7 +55,7 @@ class ReadOutput:
             return output
         except:
             return None
-        
+
     def ev(self):
         try:
             output = self.message.split()[self.message.split().index('ev') + 1]
@@ -63,12 +63,12 @@ class ReadOutput:
         except:
             return None
 
-    def pv(self, is_Kata=False):
+    def pv(self):
         try:
             output = self.message.split('pv')[1]
             return output.strip()
         except:
-            return None
+            return False
 
     def __str__(self):
         return f'ReadOutput(depth={self.depth()}, ev={self.ev()}, pv={self.pv()})'
@@ -112,7 +112,9 @@ class Protocol:
         info = self.receive()
         return info
 
-    def set_info(self, info=''):
+    def set_info(self, info=None):
+        if info is None:
+            info = {}
         for i in self.info_dict:
             if i in info:
                 self.send('INFO', i, info[i])
@@ -147,12 +149,11 @@ class Protocol:
         return self.get_move(info)
 
     def get_move(self, info=False):
-        if info:
-            lst = []
+        lst = []
         while True:
             text = self.receive().upper()
             if 'MESSAGE' not in text and 'DEBUG' not in text and ',' in text:
-                return (text) if not info else (text, lst)
+                return text if not info else (text, lst)
             if info:
                 txt = text.lower()
                 if 'message' in txt:
