@@ -215,43 +215,33 @@ class Tree:
 
     @staticmethod
     def read_rec_file(fn):
+        def get_string(string, p):
+            s = string[p]
+            p += 1
+            while string[pos].isnumeric():
+                s += fn[p]
+                p += 1
+            return s
+
         game = []
         stack = []
         pos = 1
-        s = ''
+
         with open(fn) as f:
             fn = f.read()
         while fn:
             if not stack and fn[pos - 1] == '(':
-                s += fn[pos]
-                pos += 1
-                while fn[pos].isnumeric():
-                    s += fn[pos]
-                    pos += 1
-                stack.append(s)
-                s = ''
+                stack.append(get_string(fn, pos))
                 fn = fn[pos:]
                 pos = 1
 
             elif len(stack) == 1 and fn[pos - 1] == '(':
-                s += fn[pos]
-                pos += 1
-                while fn[pos].isnumeric():
-                    s += fn[pos]
-                    pos += 1
-                stack.append(s)
-                s = ''
+                stack.append(get_string(fn, pos))
                 fn = fn[pos:]
                 pos = 1
 
             elif len(stack) > 1 and fn[pos - 1] == '(':
-                s += fn[pos]
-                pos += 1
-                while fn[pos].isnumeric():
-                    s += fn[pos]
-                    pos += 1
-                stack.append(s)
-                s = ''
+                stack.append(get_string(fn, pos))
                 fn = fn[pos:]
                 pos = 1
                 if fn[pos - 1] == ')':
