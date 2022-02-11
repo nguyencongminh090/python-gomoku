@@ -161,7 +161,7 @@ class Tree:
         mline = []  # main line
         b_list = lst[::2]
         w_list = lst[1::2]
-        k = 0  # k % 2 == 0: Black; k % 2 != 0: White
+        k = 0
         if k % 2 == 0:
             cur_list = b_list
         else:
